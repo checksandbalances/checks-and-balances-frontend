@@ -10,6 +10,10 @@ export default function Home({ navigation }: Props) {
     <View style={styles.container}>
       <Text style={styles.title}>Home Screen</Text>
       <Button title="Go to Login" onPress={() => navigation.navigate('Login')} />
+      <Button
+        title="View Bills"
+        onPress={() => navigation.navigate('BillList')}
+      />
     </View>
   );
 }

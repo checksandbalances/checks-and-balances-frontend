@@ -9,7 +9,7 @@ export default function Login({ navigation }: Props) {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Login Screen</Text>
-      <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
+      <Button title="Login" onPress={() => navigation.navigate('Main')} />
     </View>
   );
 }
