@@ -1,10 +1,10 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import DashboardScreen from '../src/screens/DashboardScreen';
-import BillListScreen from '../src/screens/BillListScreen';
-import RepresentativesScreen from '../src/screens/RepresentativesScreen';
-import BookmarksScreen from '../src/screens/BookmarksScreen';
-import SettingsScreen from '../src/screens/SettingsScreen';
+import DashboardScreen from '../screens/DashboardScreen';
+import BillListScreen from '../screens/BillListScreen';
+import RepresentativesScreen from '../screens/RepresentativesScreen';
+import BookmarksScreen from '../screens/BookmarksScreen';
+import SettingsScreen from '../screens/SettingsScreen';
 
 export type TabParamList = {
   Dashboard: undefined;
