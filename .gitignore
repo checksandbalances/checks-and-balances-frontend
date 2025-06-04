@@ -1,0 +1,9 @@
+node_modules
+.expo
+.DS_Store
+npm-debug.log
+.idea
+*.expo
+
+# macOS
+*.DS_Store
